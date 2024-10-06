@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
 
 
-const MainPage:React.FC = () => {
+// const MainPage:React.FC = () => {
 
-  return (
-        <div className='flex flex-row'>
-            <div>
+//   return (
+//         <div className='flex flex-row'>
+//             <div>
 
-            </div>
-            <></>
-            <></>
-        </div>
-    );
-};
+//             </div>
+//             <></>
+//             <></>
+//         </div>
+//     );
+// };
 
-export default MainPage;
+// export default MainPage;

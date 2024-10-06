@@ -1,5 +1,16 @@
 import React from "react";
+// import MainPage from './pages/MainPage';
+// import IntroPage from "./pages/IntroPage";
+import LandingPage from "./pages/LandingPage";
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 export const App = () => {
-    return <h1 className="text-red-500">Hello World!</h1>;
-}
+    return (
+        <LandingPage></LandingPage>
+        // <Router>
+        //     <Routes>
+        //         <Route path="/" element={<IntroPage/>} />
+        //     </Routes>
+        // </Router>
+    );
+};

@@ -5,7 +5,15 @@ export default {
       'src/**/*.{tsx,jsx,js,ts,html}'
     ],
     theme: {
-      extend: {},
+      extend: {
+        backgroundImage:{
+          'back':"url('../public/assets/back.svg')"
+        },
+        colors: {
+          'primary-color':'#FF8A00',
+          'grey':'#E1E1E1',
+        }
+      },
     },
     plugins: [],
   } satisfies Config;
